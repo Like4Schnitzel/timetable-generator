@@ -1,8 +1,8 @@
 #pragma once
 
-#include "class.hpp"
-#include "teacher.hpp"
-#include "subject.hpp"
+#include "../class.hpp"
+#include "../teacher.hpp"
+#include "../subject.hpp"
 #include <iostream>
 
 class Lesson {

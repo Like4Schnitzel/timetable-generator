@@ -1,7 +1,6 @@
 #include "day.hpp"
 
 Day::Day() {
-    //Untis
     lessons = new Lesson [24];
 }
 
