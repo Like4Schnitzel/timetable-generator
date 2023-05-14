@@ -1,14 +1,13 @@
 #pragma once
 
-class Teacher;
+class Room;
 
 #include "lesson-compounds/timetable.hpp"
 #include <string>
 
-class Teacher {
+class Room {
 public:
-    Teacher();
-    Teacher(std::string);
+    Room(std::string, TimeTable*);
 
     std::string getName();
     TimeTable* getTimeTable();

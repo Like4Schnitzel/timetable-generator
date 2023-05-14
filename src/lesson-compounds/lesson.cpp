@@ -2,24 +2,30 @@
 
 Lesson::Lesson() {}
 
-Lesson::Lesson(Class* taughtClass, Teacher* teacher, Subject* subject)
+Lesson::Lesson(Class* taughtClass, Teacher* teacher, Subject* subject, Room* room)
 {
-    this->where = taughtClass;
-    this->who = teacher;
-    this->what = subject;
+    this->className = taughtClass;
+    this->teacher = teacher;
+    this->subject = subject;
+    this->classRoom = room;
 }
 
 Class* Lesson::getClass()
 {
-    return where;
+    return className;
 }
 
 Teacher* Lesson::getTeacher()
 {
-    return who;
+    return teacher;
 }
 
 Subject* Lesson::getSubject()
 {
-    return what;
+    return subject;
+}
+
+Room* Lesson::getClassRoom()
+{
+    return classRoom;
 }

@@ -2,10 +2,9 @@
 
 Teacher::Teacher() {}
 
-Teacher::Teacher(std::string name, Subject* subjects)
+Teacher::Teacher(std::string name)
 {
     this->name = name;
-    this->taughtSubjects = subjects;
 }
 
 std::string Teacher::getName()
@@ -13,7 +12,7 @@ std::string Teacher::getName()
     return name;
 }
 
-Subject* Teacher::getSubjects()
+TimeTable* Teacher::getTimeTable()
 {
-    return taughtSubjects;
+    return timetable;
 }
