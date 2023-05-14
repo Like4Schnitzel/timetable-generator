@@ -1,5 +1,8 @@
 #pragma once
 
+class Teacher;
+
+#include "lesson-compounds/timetable.hpp"
 #include "subject.hpp"
 #include <string>
 
@@ -13,4 +16,5 @@ public:
 private:
     std::string name;
     Subject* taughtSubjects;
+    TimeTable* timetable;
 };

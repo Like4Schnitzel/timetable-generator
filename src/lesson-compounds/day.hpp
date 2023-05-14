@@ -1,5 +1,7 @@
 #pragma once
 
+class Day;
+
 #include "lesson.hpp"
 #include <ctime>
 

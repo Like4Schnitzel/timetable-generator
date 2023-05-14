@@ -1,5 +1,7 @@
 #pragma once
 
+class Lesson;
+
 #include "../class.hpp"
 #include "../teacher.hpp"
 #include "../subject.hpp"
@@ -8,13 +10,13 @@
 class Lesson {
 public:
     Lesson();
-    Lesson(Class, Teacher, Subject);
+    Lesson(Class*, Teacher*, Subject*);
 
-    Class getClass();
-    Teacher getTeacher();
-    Subject getSubject();
+    Class* getClass();
+    Teacher* getTeacher();
+    Subject* getSubject();
 private:
-    Class where;
-    Teacher who;
-    Subject what;
+    Class* where;
+    Teacher* who;
+    Subject* what;
 };

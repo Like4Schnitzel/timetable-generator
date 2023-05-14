@@ -1,5 +1,7 @@
 #pragma once
 
+class TimeTable;
+
 #include "week.hpp"
 #include <vector>
 

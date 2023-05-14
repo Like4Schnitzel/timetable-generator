@@ -1,5 +1,7 @@
 #pragma once
 
+class Week;
+
 #include "day.hpp"
 
 class Week {
