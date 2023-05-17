@@ -2,7 +2,7 @@
 
 class Teacher;
 
-#include "lesson-compounds/timetable.hpp"
+#include "../lesson-compounds/timetable.hpp"
 #include <string>
 
 class Teacher {

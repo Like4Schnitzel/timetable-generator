@@ -1,5 +1,3 @@
-#include "class.hpp"
-#include "teacher.hpp"
 #include <iostream>
 
 using namespace std;

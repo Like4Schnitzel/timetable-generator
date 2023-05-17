@@ -2,10 +2,10 @@
 
 class Lesson;
 
-#include "../class.hpp"
-#include "../teacher.hpp"
-#include "../subject.hpp"
-#include "../room.hpp"
+#include "../school-parts/class.hpp"
+#include "../school-parts/teacher.hpp"
+#include "../school-parts/subject.hpp"
+#include "../school-parts/room.hpp"
 #include <iostream>
 
 class Lesson {

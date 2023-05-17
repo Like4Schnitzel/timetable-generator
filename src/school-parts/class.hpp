@@ -2,7 +2,8 @@
 
 class Class;
 
-#include "lesson-compounds/timetable.hpp"
+#include "../lesson-compounds/timetable.hpp"
+#include "room.hpp"
 #include <string>
 
 class Class {

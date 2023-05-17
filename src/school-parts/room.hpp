@@ -2,7 +2,7 @@
 
 class Room;
 
-#include "lesson-compounds/timetable.hpp"
+#include "../lesson-compounds/timetable.hpp"
 #include <string>
 
 class Room {
